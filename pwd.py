@@ -14,3 +14,8 @@ while True:
           lower = True
       if char >= "0" and char <= "9":
           number = True
+  valid = True
+
+  if len(password) < 8:
+    print("Password must contain at least 8 charecters.")
+    valid = False
