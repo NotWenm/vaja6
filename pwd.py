@@ -36,3 +36,6 @@ while True:
   if valid == True:
     print("\Password is valid!")
     break
+ 
+  else:
+      print("\nInvalid password. Try again.")
