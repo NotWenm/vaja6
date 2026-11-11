@@ -29,4 +29,6 @@ while True:
       print("Password must cintain a lowercase letter.")
       valid = False  
 
-  
+  if number == False:
+      print("Password must cintain a number.")
+      valid = False
