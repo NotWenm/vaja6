@@ -32,3 +32,7 @@ while True:
   if number == False:
       print("Password must cintain a number.")
       valid = False
+
+  if valid == True:
+    print("\Password is valid!")
+    break
