@@ -18,4 +18,4 @@ while True:
 
   if len(password) < 8:
     print("Password must contain at least 8 charecters.")
-    valid = False
+    valid = False 
